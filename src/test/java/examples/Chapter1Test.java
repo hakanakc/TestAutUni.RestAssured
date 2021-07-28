@@ -9,7 +9,6 @@ public class Chapter1Test {
 
     @Test
     public void requestUsZipCode90210_checkPlaceNameInResponseBody_expectBeverlyHills() {
-
         given().
                 when().
                 get("http://zippopotam.us/us/90210").
