@@ -16,5 +16,10 @@ public class Chapter1Test {
                 assertThat().
                 body("places[0].'place name'", equalTo("Beverly Hills"))
                 .assertThat().statusCode(200);
+
+
+
     }
+
+
 }
